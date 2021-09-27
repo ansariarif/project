@@ -65,12 +65,13 @@
                 
             <form action="" class="booking">
                 <label for="uname"><b>Name</b></label> <br>
-                <input type="text" placeholder="Name" name="uname">
+                <input type="text" placeholder="Name" name="uname" id="fname" onblur="validate1()">
+                <span id="err1" style="margin-left: 35%;"></span>
                 <br>
                 <label for="">Contact Number</label> <br>
-                <input type="tel" placeholder="Mobile number" maxlength="10"> <br>
+                <input type="tel" placeholder="Mobile number"id="mobileno" onblur="validate3()"> <br>
                 <label for="">Email</label> <br>
-                <input class="input-field" type="email" placeholder="Email" name="email" required>
+                <input class="input-field" type="email" placeholder="Email" name="email" id="mailId" onblur="validate4()">
                 <hr>
                 <label for="">Select Type:</label> 
                 <input type="checkbox"><label for="">Beaches</label> 
@@ -103,5 +104,7 @@
             </form>
 
         </section>
+
+        <script src="jsfile/bookimg.js"></script>
     </body>
 </html>    

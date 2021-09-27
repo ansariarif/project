@@ -40,10 +40,10 @@ input{
     color: black;
     /* opacity: 0.5; */
     text-transform: uppercase;
-    position: relative;
+    /* position: relative; */
     margin-left: -0.5%;
     color: wheat;
-    box-shadow: 0 0 15px wheat;
+    box-shadow: 0 0 50px wheat;
   
   }
 

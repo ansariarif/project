@@ -75,7 +75,7 @@ article{
 
 
 .about{
-    position: relative; 
+    /* position: relative;  */
     width: 100%;
     box-shadow: 0 0 15px skyblue;
    
@@ -86,13 +86,12 @@ article{
 
 .aboutt{
     text-align: center;
-    position: relative;
+    /* position: relative; */
     padding-top: 50px;
     padding-bottom: 20px;
     padding-left: 10px;
     width: 70%;
-    /* background-color: lightskyblue; */
-    box-shadow:0 0 15px lightcoral;
+    
     margin-left: 15%;
     box-shadow: 0 0 15px skyblue;
 
