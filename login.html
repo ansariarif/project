@@ -1,0 +1,76 @@
+<!DOCTYPE html>  <!--bydefualt-->
+<html>
+    <head>
+        <title>Vacation</title>
+
+         <meta charset="UTF-8"> <!-- unicode tranformation format-->
+         <meta name="description" content="brief description about ur web page"> 
+         <meta name="keywords" content="important words to represent ur web page">
+         <meta name="author" content="author name">
+         <meta name="viewport" content="width=device-width,initial-scale=1">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="nav.css">
+      
+     
+         <link rel="icon" href="images/logo1.jpg">
+       
+    </head>
+
+    <body>
+
+    
+
+         
+      <div class="topnav" id="navbar">
+        <a class="active" href="home.html"><i class="fa fa-home" style="font-size:18px"></i>Home</a>
+        <div class="topnav-right">
+                <!-- <section class="search">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </section> -->
+            <a href="about.html">About</a>
+            <a href="login.html">Login</a>
+            <a href="booking.html">Book !</a>
+
+        </div>
+    </div>
+
+
+
+
+
+<p id="heading"><b>sign in</b> </p>
+
+<form class="login" id="login">
+
+  <div class="imgcontainer">
+    <img src="images/login3.jpg" alt="Avatar" class="avatar">
+  </div>
+
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label> <br>
+    <input type="text" placeholder="Enter Username" id="fname" onblur="validate1()"> <br>
+    <span id="err1" style="margin-left: 35%;"></span> <br>
+
+    <label for="psw"><b>Password</b></label> <br>
+    <input type="password" placeholder="Enter Password" name="psw" id="pass" onblur="validate2()">
+    <span id="err2" style="margin-left: 35%;"></span>
+        
+    <button type="submit">Login</button>
+   
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1;">
+    <a href="registration.html"><button type="button" class="btn">Register</button></a>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+        
+
+      <script src="jsfile/login.js"></script>
+    </body>
+
+</html>

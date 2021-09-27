@@ -1,0 +1,455 @@
+
+html{
+      background: url(images/home3.jpg) no-repeat center center fixed;
+   
+      background-size: cover;
+   
+    
+}
+
+
+
+/* 
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 101%;
+  margin-left: -1%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.search{
+  float: right;
+  margin: 10px;
+ margin-right: 50px;
+} 
+  */
+
+
+
+
+/*Navbar*/
+
+ * {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}  
+
+
+ .navbar {
+
+  
+
+
+  margin-top: -1%;
+  width: 100.9%;
+  background-color: #555;
+  overflow: auto;
+  opacity: 0.7; 
+  display: inline-block;
+  /* position: relative; */
+  position: fixed; 
+  top: 0;
+  margin-left: -0.4%;
+} 
+
+
+ 
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%; 
+  text-align: center;
+ 
+}
+
+.navbar a:hover {
+  background-color: #000;
+  
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+} 
+
+/*search bar*/
+
+
+  .search{
+    float: right;
+    margin: 10px;
+   margin-right: 50px;
+  } 
+
+    
+
+ 
+
+    
+ /*heading*/
+
+.heading{
+    width: 50%;
+    
+    position: absolute;
+    top: 25%;
+    left: 25% ;
+    margin: -25px 0 0 -25px;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 5px 5px 5px darkblue;
+    text-transform:uppercase  ;
+    color: paleturquoise;
+    
+}
+
+/*caption*/
+
+ #row{
+   font-size: 50px;
+   margin-top: 8%;
+   margin-left: 30%;
+   color: paleturquoise;
+   text-shadow: 5px 5px 5px blue;
+   padding: 0px;
+   
+ }
+
+
+
+
+/*content*/
+
+
+.contentdetail{
+ 
+  background-color: turquoise;
+  margin-top: 30%;
+  opacity: 0.7;
+}
+
+.content{
+  
+  margin-top: -10%;
+  text-align: center;
+  font-size: 70px;
+  background-color: black;
+  opacity: 0.7;
+ 
+
+}
+
+#content{
+  margin-top: -4%;
+} 
+
+
+/*details*/
+
+.detail{
+
+  /* text-align: center; */
+
+
+  width: 100% !important;
+  height: 100% !important;
+  /* background-color: turquoise !important; */
+  /* opacity: 0.7; */
+  margin-top: -1% !important;
+  
+}
+
+
+
+.art>ul{
+
+  display: inline-block !important;
+  
+  margin-left: 10% !important;
+  text-transform: uppercase !important;
+  color:black;
+ 
+  
+ 
+
+}
+
+
+
+/*hiking*/
+
+
+
+
+.hiking{
+  
+  
+  display: inline-block; 
+  background-color: skyblue;
+  opacity: 0.9;
+}
+
+
+.hiking>div{
+  display: inline-block; 
+  position: relative;
+
+  
+  width: 100%;
+  
+
+}
+
+
+
+
+
+.column{
+  float: left;
+  width: 25%;
+  padding: 2px;
+  background-color: lightcyan;
+  opacity: 0.98;
+
+}
+
+.column:hover img{
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.photo::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/*review*/
+
+.review{
+  
+  background-color: lightskyblue;
+  opacity: 0.7;
+}
+
+.review1>div{
+  display: inline-block;
+
+}
+
+.location{
+ 
+ 
+  width: 33%;
+  background-color: lightgray;
+  opacity: 1;
+  
+}
+
+.checked {
+  color: orange;
+}
+
+/* #beaches{
+  width: 33.33%;
+}
+#scuba{
+  width: 33.33%;
+} */
+
+
+
+
+
+
+/*image container*/
+
+ #container{
+   
+    width: 99%;
+   
+    display:inline-block;
+    position:absolute;
+    bottom:-295%;
+    
+   height:50%;
+  
+
+} 
+
+ .col{
+     float: left;
+     width: 33.20%;
+     padding: 2px;
+    
+     
+
+ }
+
+
+
+ .container::after{
+ 
+   display: table;
+
+ }
+
+ img{
+
+    width: 100% !important;
+ }
+
+    .middle{
+        opacity: 0;
+        position: absolute;
+        width: 20%;
+        top: 42%;
+        left: 16%;
+        height: auto;
+       
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    
+    }
+
+    .second{
+        opacity: 0;
+        position: absolute;
+        width: 20%;
+        top: 50%;
+        left: 60%;
+        height: auto;
+        transform: translate(-100%, -100%);
+        -ms-transform: translate(-100%, -100%);
+        text-align: center;
+    
+    }
+
+    .third{
+        opacity: 0;
+        position: absolute;
+        width: 20%;
+        top: 55%;
+        right: -25%;
+        height: auto;
+        transform: translate(-150%, -150%);
+        -ms-transform: translate(-150%, -150%);
+        text-align: center;
+    
+    }
+     
+ 
+     
+
+.col:hover .image{  
+  
+    opacity: 0.2;
+}
+
+
+.col:hover .middle{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.col:hover .second{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.col:hover .third{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+.text{
+    background-color: teal;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 25px;
+}
+
+.text:hover{
+
+    background-color:skyblue;
+    opacity: 0.9;
+}
+
+
+.nam{
+    font-size: 30px;
+    color: paleturquoise;
+    text-shadow: 5px 5px 5px darkblue;
+   
+}
+
+
+
+
+ /*footer*/
+
+ 
+ .footer-clean {
+  
+
+  position: relative;
+  margin-left: -0.6%;
+  width: 101%;
+  padding:50px 0;
+  background-color:black;
+  opacity: 1;
+  color:white;
+  margin-top: 40%;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: -1%;
+  
+ 
+ 
+}
+ .coll{
+   display: inline-block;
+   padding-left: 15% ;
+ }
+
+.coll1{
+  
+  margin-left: 40%;
+  width: 50%;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+
+

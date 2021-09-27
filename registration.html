@@ -1,0 +1,99 @@
+<!DOCTYPE html>  <!--bydefualt-->
+<html>
+    <head>
+        <title>Vacation</title>
+
+         <meta charset="UTF-8"> <!-- unicode tranformation format-->
+         <meta name="description" content="brief description about ur web page"> 
+         <meta name="keywords" content="important words to represent ur web page">
+         <meta name="author" content="author name">
+         <meta name="viewport" content="width=device-width,initial-scale=1">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link rel="stylesheet" href="registration.css">
+         <link rel="stylesheet" href="nav.css">
+        
+     
+         <link rel="icon" href="images/logo1.jpg">
+       
+    </head>
+
+    <body>
+
+      <div class="topnav" id="navbar">
+        <a class="active" href="home.html"><i class="fa fa-home" style="font-size:18px"></i>Home</a>
+        <div class="topnav-right">
+                <!-- <section class="search">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </section> -->
+            <a href="about.html">About</a>
+            <a href="login.html">Login</a>
+            <a href="booking.html">Book !</a>
+
+        </div>
+    </div>
+
+      <!-- <div class="home" id="home">
+        <div class="navbar">
+           
+            <a class="active" href="index.html"><i class="fa fa-home" style="font-size:25px"></i> Home</a> 
+            <a href="booking.html">Booking</a> 
+            <a href="about.html">About</a> 
+            <a href="login.html">Login</a>
+            <a href="login.html">Go back</a>
+             <div class="search">
+                <form action="search">
+                    <input type="text" placeholder="Search" name="search">
+                   
+                </form>
+
+            </div> -->
+           
+        </div>  -->
+
+      <form class="register" id="register" onsubmit="return validateForm()">
+
+        <p id="heading"><b>SIGN UP</b></p>
+
+        <div class="container">
+          
+          <i class="fa fa-user icon"></i>
+          <input class="input-field" type="text" placeholder="firstrname" name="fname" id="fname" onblur="validate1()">
+          <!-- <span id="err1" style="margin-left: 35%;"></span> -->
+         
+        </div>
+        <div class="container">
+          
+          <i class="fa fa-user icon"></i>
+          <input class="input-field" type="text" placeholder="lastname" name="lname" id="lname" onblur="validate2()" >
+          <!-- <span id="err1" style="margin-left: 35%;"></span>  -->
+          
+        </div>
+
+        <div class="container">
+          <i class="fas fa-mobile icon"></i>
+          <input class="input-field" type="tel" placeholder="mobile number" name="mobile" id="mobileno" onblur="validate3()">
+        </div>
+      
+        <div class="container">
+          <i class="fa fa-envelope icon"></i>
+          <input class="input-field" type="email" placeholder="Email" name="email" id="mailId" onblur="validate4()">
+        </div>
+        
+        <div class="container">
+          <i class="fa fa-key icon"></i>
+          <input class="input-field" type="password" placeholder="Password" name="psw" id="pass" onblur="validate5()">
+        </div>
+
+        
+       
+
+        
+
+      
+        <button type="submit" class="btn">Register</button>
+      </form>
+
+      <script src="jsfile/registration.js"></script>
+    </body>
+</html>    
